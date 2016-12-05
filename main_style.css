@@ -1,0 +1,510 @@
+/*overall //////////////////////////////////////////////////////////*/
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+
+}
+
+::-webkit-scrollbar-track-piece{
+    -webkit-box-shadow: inset 0 0 0 5px #333333;
+}
+
+::-webkit-scrollbar-thumb{
+      border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 0 5px #666666; 
+}
+
+::-webkit-scrollbar-corner{
+
+}
+
+::-webkit-resizer{
+
+}
+
+body {
+	background-color: #333333;
+	font-family: "Roboto-Thin";
+	color: #CFCFCF;
+	scroll-behavior: smooth;
+	margin: 0; padding: 0;
+}
+
+::selection {
+	color: #000000;
+	background: #ffffff;
+}
+
+::-moz-selection {
+	color: #000000;
+	background: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #CFCFCF;
+}
+
+a:visited {
+	color: #CFCFCF;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ol {
+	list-style-type: none;
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(Fonts/Roboto-Thin.ttf);
+ }
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url(Fonts/Roboto-Condensed.ttf);
+ }
+
+#heder {
+	border-bottom: #CFCFCF 2px groove;
+}
+
+#about_link {
+ 	 font-size: 15px;
+   position: absolute;
+   left: 95%;
+   margin: 5px;
+}
+
+#about:hover {
+ 	 text-decoration: underline;
+}
+
+#logo_reduced {
+	position: relative;
+	margin: 4px;
+}
+
+#processorus {
+	border: #CFCFCF 1px solid;
+	width: 65%;
+	padding: 10px;
+	margin: 10px;
+	font-size: 25px;
+}
+
+#processorus:hover {
+	background-color: #666666;
+	transition: 0.228s linear;
+}
+
+#processorus2 {
+	border: #CFCFCF 1px solid;
+	width: 65%;
+	padding: 10px;
+	margin: 10px;
+	font-size: 25px;
+	position: relative;
+	left: 5%;
+}
+
+#processorus2:hover {
+	background-color: #666666;
+	transition: 0.228s linear;
+}
+
+#heading {
+	font-size: 25px;
+	font-family: "Roboto-Condensed";
+}
+
+#heading2 {
+	font-size: 25px;
+	font-family: "Roboto-Condensed";
+	position: absolute;
+	left: 7%;
+}
+
+/*lenchart_index ////////////////////////////////////////////////////////////*/
+
+#lenchart_heder {
+	 margin-top: 4px;
+   border-bottom: #CFCFCF 2px groove;
+}
+
+#lenchart_logo {
+	 position: relative;
+	 left: 37%;
+}
+
+
+
+/*lenchart_inform_index ////////////////////////////////////////////////////////////*/
+
+#heder_index {
+	 margin-top: 4px;
+   border-bottom: #CFCFCF 2px groove;
+}
+
+#logo_index {
+	 position: relative;
+	 left: 40%;
+}
+
+#news {
+	 width: 350px; 
+	 height: 661px;
+	 float: left;
+	 position: relative;
+	 border: #CFCFCF 2px groove; 
+	 margin-top: 6px;
+	 margin-left: 6px;
+	 font-size: 20px;
+}
+
+#scroll {
+   overflow-y: auto;
+	 scroll-behavior: smooth;
+}
+
+#scroll::-webkit-scrollbar { width: 0; }
+
+#scroll{ -ms-overflow-style: none; }
+
+#scroll{ overflow: -moz-scrollbars-none; }
+
+#title_news {
+	 border-bottom: #CFCFCF 2px groove;
+	 padding: 3px;
+}
+
+#kostil {
+	margin: 0;
+	padding: 0;
+}
+
+#publication { 
+
+	 padding: 10px;
+	 margin-left: 26.7%;
+	 margin-right: 15%;
+}
+
+#publication:hover {
+	 text-decoration: underline;
+}
+
+#plank_top {
+	margin-top: 3%;
+	border-bottom: #CFCFCF 2px groove;
+}
+
+#plank_bottom {
+	margin-bottom: 8%;
+	border-bottom: #CFCFCF 2px groove;
+}
+
+#processors {
+	width: 69%;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 10px;
+  border: #CFCFCF 2px groove;
+  float: left;
+}
+
+#lenchart_inform_processors_text {
+  text-align: center;
+}
+
+#processors:hover {
+	background-color: #666666;
+	transition: 0.15s linear;
+}
+
+#coprocessors {
+	width: 69%;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 10px;
+  border: #CFCFCF 2px groove;
+  float: left;
+}
+
+#lenchart_inform_coprocessors_text {
+	text-align: center;
+}
+
+#coprocessors:hover {
+  background-color: #666666;
+	transition: 0.15s linear;
+}
+
+#videoadapters {
+	width: 69%;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 10px;
+  border: #CFCFCF 2px groove;
+  float: left;
+}
+
+#lenchart_inform_videoadapters_text {
+	text-align: center;
+}
+
+#videoadapters:hover {
+	background-color: #666666;
+	transition: 0.15s linear;
+}
+
+#ram {
+  width: 69%;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 10px;
+  border: #CFCFCF 2px groove;
+  float: left;
+}
+
+#lenchart_inform_ram_text {
+	text-align: center;
+}
+
+#ram:hover {
+	background-color: #666666;
+	transition: 0.15s linear;
+}
+
+#ports_slots {
+  width: 69%;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 10px;
+  border: #CFCFCF 2px groove;
+  float: left;
+}
+
+#lenchart_inform_ports_slots_text {
+	text-align: center;
+}
+
+#ports_slots:hover {
+	background-color: #666666;
+	transition: 0.15s linear;
+}
+
+#storage {
+  width: 69%;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 10px;
+  border: #CFCFCF 2px groove;
+  float: left;
+}
+
+#lenchart_inform_storage_text {
+	text-align: center;
+}
+
+#storage:hover {
+	background-color: #666666;
+	transition: 0.15s linear;
+}
+
+#ceepsets {
+  width: 69%;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 10px;
+  border: #CFCFCF 2px groove;
+  float: left;
+}
+
+#lenchart_inform_ceepsets_text {
+	text-align: center;
+}
+
+#ceepsets:hover {
+	background-color: #666666;
+	transition: 0.15s linear;
+}
+
+/*about ////////////////////////////////////////////////////////////*/
+
+#about_paragraph {
+	text-align: center;
+	margin: 10px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#ab {
+	margin: 30px;
+	padding: 10px;
+	border: #CFCFCF 2px groove;
+	font-size: 18px;
+}
+
+/*lenchart_inform_processors ///////////////////////////////////////////////////////*/
+
+#title_processors {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 39.5%;
+}
+
+#lenchart_inform_list_of_processors {
+	text-align: center;
+	border: #CFCFCF 2px groove;
+	padding: 5px;
+	font-size: 30px;
+	margin: 15px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#lenchart_inform_list_of_processors:hover {
+	background-color: #666666;
+	transition: 0.228s linear;
+}
+
+/*lenchart_inform_intel_processors//////////////////////////////////////////////////*/
+
+#title_intel {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 46.4%;
+}
+
+#lenchart_inform_list_of_intel_processors {
+	text-align: center;
+	border: #CFCFCF 2px groove;
+	padding: 5px;
+	font-size: 30px;
+	margin: 15px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#lenchart_inform_list_of_intel_processors:hover {
+	background-color: #666666;
+	transition: 0.228s linear;
+}
+
+/*i4004-i80486DX4//////////////////////////////////////////////////*/
+
+#title_i4004_i80486dx4 {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 34%;
+}
+
+#navigation {
+	float: right;
+	position: relative;
+	border: #CFCFCF 2px groove; 
+	margin-top: 6px;
+	margin-right: 13px;
+	font-size: 20px;
+}
+
+#tutle_navigation {
+	border-bottom: #CFCFCF 2px groove;
+	padding: 3px;
+}
+
+#scroll {
+  overflow-y: scroll;
+	width: 350px;
+	height: 730px;
+	scroll-behavior: smooth;
+}
+
+#kostil {
+	font-family: "Roboto-Condensed";
+	font-size: 15px;
+}
+
+#a_list_of_processors {
+  margin: 30px;
+}
+
+/*AMD_processors//////////////////////////////////////////////////*/
+
+#title_amd {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 45.6%;
+}
+
+#logo_amd {
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+/*Qualcomm_processors//////////////////////////////////////////////////*/
+
+#title_qualcomm {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 39.7%;
+}
+
+/*IBM_processors//////////////////////////////////////////////////*/
+
+#logo_ibm {
+	margin: 8px;
+	left: -20%;
+	position: relative;
+}
+
+/*Coprocessors//////////////////////////////////////////////////*/
+
+#title_coprocessors {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 37.3%;
+}
+
+/*Videoadapters//////////////////////////////////////////////////*/
+
+#title_videoadapters {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 36.5%;
+}
+
+/*RAM//////////////////////////////////////////////////*/
+
+#title_ram {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 46%;
+}
+
+/*Ports/Slots//////////////////////////////////////////////////*/
+
+#title_ports_slots {
+	font-size: 55px;
+ 	position: absolute;
+ 	left: 39.5%;
+}
+
+/*Ceepsets//////////////////////////////////////////////////*/
+
+#title_ceepsets {
+  font-size: 55px;
+ 	position: absolute;
+ 	left: 41.4%;
+}
